@@ -1,0 +1,85 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Content{
+    background-color: #0b1719;
+    color:#fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    text-align: center;
+    left: 450px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 5px 30px 5px;
+}
+
+h1 img{
+    position: relative;
+    height: 53px;
+    width: 53px;
+    justify-content: center;
+    margin-right: 12px;
+}
+.Links{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    right: 20px;
+    gap: 30px;
+    position: absolute;
+}
+.Links li{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.Links li:hover{
+    text-decoration: underline;
+    
+}
+
+.Btn{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    left: 0px;
+    justify-content: space-evenly;
+    margin: 10px 10px 5px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: blue;
+}
+
+button{
+    width: 150px;
+    height: 25px;
+    color: #0b1719;
+    background-color: #6db1f1f1;
+    border-radius: 20px;
+
+}
+
+
